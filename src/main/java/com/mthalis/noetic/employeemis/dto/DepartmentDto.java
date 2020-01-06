@@ -1,20 +1,15 @@
-package com.employee.EmployeeMIS.model;
+package com.mthalis.noetic.employeemis.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+public class DepartmentDto {
 
-@Entity
-public class Departments {
-
-	@Id
 	private String departmentID;
 	private String name;
 
-	public Departments() {
+	public DepartmentDto() {
 		super();
 	}
 
-	public Departments(String departmentID, String name) {
+	public DepartmentDto(String departmentID, String name) {
 		super();
 		this.departmentID = departmentID;
 		this.name = name;

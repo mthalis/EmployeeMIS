@@ -1,21 +1,16 @@
-package com.employee.EmployeeMIS.model;
+package com.mthalis.noetic.employeemis.dto;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
-public class Employees {
-
-	@Id
+public class EmployeeDto {
+	
 	private String employeeID;
 	private String firstname;
 	private String lastname;
 
-	public Employees() {
+	public EmployeeDto() {
 		super();
 	}
 
-	public Employees(String employeeID, String firstname, String lastname) {
+	public EmployeeDto(String employeeID, String firstname, String lastname) {
 		super();
 		this.employeeID = employeeID;
 		this.firstname = firstname;
@@ -45,5 +40,4 @@ public class Employees {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-
 }

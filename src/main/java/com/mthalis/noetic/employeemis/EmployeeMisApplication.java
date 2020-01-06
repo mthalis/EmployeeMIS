@@ -1,4 +1,4 @@
-package com.employee.EmployeeMIS;
+package com.mthalis.noetic.employeemis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
